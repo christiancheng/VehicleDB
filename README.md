@@ -12,7 +12,9 @@ Grails should be installed in order to run this application.
 The easy way to install Grails is to use the Software Development Kit Manager (SDKMAN!) on bash platforms. Run the following commands in succession:
 
 <code>$ curl -s get.sdkman.io | bash</code>
+
 <code>$ source "$HOME/.sdkman/bin/sdkman-init.sh"</code>
+
 <code>$ sdk install grails</code>
 
 Run <code>$ grails -version </code> to verify installation.

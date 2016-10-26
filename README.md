@@ -11,13 +11,9 @@ Grails should be installed in order to run this application.
 
 The easy way to install Grails is to use the Software Development Kit Manager (SDKMAN!) on bash platforms. Run the following commands in succession:
 
-<code>
-$ curl -s get.sdkman.io | bash
-
-$ source "$HOME/.sdkman/bin/sdkman-init.sh"
-
-$ sdk install grails
-</code>
+<code>$ curl -s get.sdkman.io | bash</code>
+<code>$ source "$HOME/.sdkman/bin/sdkman-init.sh"</code>
+<code>$ sdk install grails</code>
 
 Run <code>$ grails -version </code> to verify installation.
 
@@ -27,4 +23,4 @@ Alternatively, Grails can be downloaded as a binary distribution: see https://gr
 ## Running the application
 Make sure Grails is installed.
 
-Navigate to the home folder of the project. From the command prompt or terminal, type <code>grails run-app</code>. The application can then be accessed from the brower at http://localhost:8080/.
+Navigate to the home folder of the project. From the command prompt or terminal, type <code>grails run-app</code>. The application can then be accessed from any web browser at http://localhost:8080/.

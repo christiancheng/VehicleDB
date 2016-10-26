@@ -1,7 +1,5 @@
 # mitchell
-CRUD service for Vehicles
-
-This is a solution implemented using the Grails framework to provide CRUD operations (Create, Read, Update, and Delete) for a Vehicle entity. 
+This is a solution to provide CRUD operations (Create, Read, Update, and Delete) for a Vehicle entity. It is implemented using the Grails framework.
 
 ## What is Grails?
 Grails is a MVC framework that runs on the Groovy language (which is based on Java).
@@ -26,3 +24,6 @@ Alternatively, Grails can be downloaded as a binary distribution: see https://gr
 Make sure Grails is installed.
 
 Navigate to the home folder of the project. From the command prompt or terminal, type <code>grails run-app</code>. The application can then be accessed from any web browser at http://localhost:8080/.
+
+Developed by Christian Cheng.
+http://christiancheng.me

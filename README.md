@@ -25,5 +25,7 @@ Make sure Grails is installed.
 
 Navigate to the home folder of the project. From the command prompt or terminal, type <code>grails run-app</code>. The application can then be accessed from any web browser at http://localhost:8080/.
 
+
 Developed by Christian Cheng.
+
 http://christiancheng.me

@@ -1,9 +1,13 @@
+<! Author: Christian Cheng
+   Project: mitchell
+   File: create.gsp !>
+
 <html>
     <head>
-        <title>Create new Vehicle</title>
+        <title>Create New Vehicle</title>
     </head>
     <body>
-        <h1>Create new Vehicle</h1>
+        <h1>Create New Vehicle</h1>
         <g:form action="save">
             Year: <g:textField name="Year" /><br/>
             Make: <g:textField name="Make" /><br/>

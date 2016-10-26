@@ -1,3 +1,9 @@
+/**
+ * Author: Christian Cheng
+ * Project: mitchell
+ * File: Vehicle.groovy
+ */
+
 package mitchell
 
 class Vehicle {

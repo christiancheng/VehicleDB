@@ -4,6 +4,7 @@
 
 <html>
     <head>
+        <meta name="layout" content="main"/>
         <title>List Vehicles</title>
     </head>
     <body>

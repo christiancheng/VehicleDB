@@ -4,6 +4,9 @@
 
 <html>
     <head>
+        
+    <meta name="layout" content="main"/>
+        <meta name="layout" content="main"/>
         <title>Show Vehicle</title>
     </head>
     <body>
@@ -13,6 +16,7 @@
         Make: ${vehicle.Make} <br/>
         Model: ${vehicle.Model} <br/>
         <g:link action="edit" id="${vehicle.id}">Edit</g:link><br/>
-        <g:link action="delete" id="${vehicle.id}">Delete</g:link>
+        <g:link action="delete" id="${vehicle.id}">Delete</g:link><br/>
+        <g:link action="list" id="${vehicle.id}">List All Vehicles</g:link>
     </body>
 </html>

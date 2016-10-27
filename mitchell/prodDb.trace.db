@@ -1,0 +1,9 @@
+2016-10-27 00:07:09 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Table "VEHICLE" not found; SQL statement:
+select this_.id as id1_0_0_, this_.version as version2_0_0_, this_.make as make3_0_0_, this_.model as model4_0_0_, this_.year as year5_0_0_ from vehicle this_ [42102-192]
+2016-10-27 00:09:29 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Table "VEHICLE" not found; SQL statement:
+select this_.id as id1_0_0_, this_.version as version2_0_0_, this_.make as make3_0_0_, this_.model as model4_0_0_, this_.year as year5_0_0_ from vehicle this_ [42102-192]
+2016-10-27 00:11:16 jdbc[7]: exception
+org.h2.jdbc.JdbcSQLException: Table "VEHICLE" not found; SQL statement:
+select this_.id as id1_0_0_, this_.version as version2_0_0_, this_.make as make3_0_0_, this_.model as model4_0_0_, this_.year as year5_0_0_ from vehicle this_ [42102-192]

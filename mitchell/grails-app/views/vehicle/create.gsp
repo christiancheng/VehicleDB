@@ -4,6 +4,7 @@
 
 <html>
     <head>
+        <meta name="layout" content="main"/>
         <title>Create New Vehicle</title>
     </head>
     <body>

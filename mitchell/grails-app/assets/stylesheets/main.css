@@ -5,7 +5,7 @@ input, select, textarea {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    line-height: 1.1;
+    line-height: 1.5;
 }
 
 /* BASE LAYOUT */
@@ -53,11 +53,18 @@ a:hover, a:active {
     outline: none; /* prevents outline in webkit on active links but retains it for tab focus */
 }
 
-h1, h2, h3 {
-    font-weight: normal;
-    font-size: 1.25em;
+h1 {
+    font-weight: bold;
+    font-size: 1.75em;
     margin: 0.8em 0 0.3em 0;
 }
+
+h2 {
+    font-weight: bold;
+    font-size: 1.1em;
+    margin: 0.1em 0 0.1em 0;
+}
+
 
 ul {
     padding: 0;

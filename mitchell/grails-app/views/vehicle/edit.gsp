@@ -4,6 +4,7 @@
 
 <html>
     <head>
+        <meta name="layout" content="main"/>
         <title>Edit Vehicle</title>
     </head>
     <body>

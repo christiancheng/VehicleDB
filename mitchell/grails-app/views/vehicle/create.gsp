@@ -9,9 +9,10 @@
     <body>
         <h1>Create New Vehicle</h1>
         <g:form action="save">
-            Year: <g:textField name="Year" /><br/>
-            Make: <g:textField name="Make" /><br/>
-            Model: <g:textField name="Model" /><br/>
+            Year: <g:field name="Year" type="number" min="1950"
+                     max="2050" required=""/><br/>
+            Make: <g:field name="Make" type="text" required=""/><br/>
+            Model: <g:field name="Model" type="text" required=""/><br/>
             <g:actionSubmit value="Save" />
         </g:form>
     </body>

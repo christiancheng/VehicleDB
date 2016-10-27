@@ -8,24 +8,16 @@ package mitchell
 
 class Vehicle {
 
-  private int Id;
-  private int Year;
-  private String Make;
-  private String Model;
+  //public int Id;
+  public int Year;
+  public String Make;
+  public String Model;
 
   static constraints = {
-    Id   (blank: false)
+    //Id   (blank: false)
     Year (blank: false)
     Make (blank: false)
     Model(blank: false)
-  }
-
-  public int getId() {
-    return this.Id;
-  }
-
-  public void setId(int IdToSet) {
-    this.Id = IdToSet;
   }
 
   public int getYear() {

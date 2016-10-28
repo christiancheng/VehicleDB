@@ -4,7 +4,6 @@
  * File: VehicleController.groovy
  */
 
-
 package mitchell
 
 class VehicleController {
@@ -47,6 +46,14 @@ class VehicleController {
   /* Show all vehicles as a list. */
   def list = {
     def vehicles = Vehicle.list();
+    [vehicles: vehicles];
+  }
+
+  def filter = {
+    def c = Vehicle.createCriteria();
+    def vehicles = c.list{
+      eqProperty("Year", "1997");
+    }
     [vehicles: vehicles];
   }
 

@@ -8,14 +8,12 @@ package mitchell
 
 class Vehicle {
 
-  //public int Id;
   public int Year;
   public String Make;
   public String Model;
 
   static constraints = {
-    //Id   (blank: false)
-    Year (blank: false)
+    Year (blank: false, minSize: 1950, maxSize: 2050)
     Make (blank: false)
     Model(blank: false)
   }

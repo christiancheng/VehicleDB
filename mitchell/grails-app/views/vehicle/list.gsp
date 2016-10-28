@@ -5,10 +5,10 @@
 <html>
     <head>
         <meta name="layout" content="main"/>
-        <title>List Vehicles</title>
+        <title>List All Vehicles</title>
     </head>
     <body>
-        <h1>List Vehicles</h1>
+        <h1>List All Vehicles</h1>
         <g:link action="create">Create New Vehicle</g:link><br/><br/>
         <g:each in="${vehicles}" var="vehicle">
              <h2>Vehicle ${vehicle.id}</h2>

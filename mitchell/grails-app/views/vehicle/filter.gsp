@@ -16,9 +16,8 @@
         <h2>Filter By: </h2>
         <g:form action="filter">
 	          <g:select name="ftype" from="${['Year', 'Make', 'Model']}"/>
-	          <g:field name ="fparam"/>
-            <g:actionSubmit value="Filter Vehicles" action="filter"
-            required=""/>
+	          <g:field name ="fparam" required=""/>
+            <g:actionSubmit value="Filter Vehicles" action="filter"/>
 	      </g:form><br/>
 
         <g:each in="${vehicles}" var="vehicle">

@@ -49,12 +49,16 @@ class VehicleController {
     [vehicles: vehicles];
   }
 
+  /* Filter vehicles based on one or more properties. */
   def filter = {
+    def search = params.fparam;
+    if (search.isNumber()) search = search.toInteger();
     def c = Vehicle.createCriteria();
     def vehicles = c.list{
-      eqProperty("Year", "1997");
+      eq((params.ftype).toLowerCase(), search);
     }
-    [vehicles: vehicles];
+    if (vehicles) [vehicles: vehicles];
+    else redirect action: "list";
   }
 
   /* Remove a vehicle from the database. */

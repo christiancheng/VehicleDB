@@ -13,9 +13,9 @@
         <h1>Show Vehicle</h1>
         <h2>Vehicle ${vehicle.id}</h2>
         ID: ${vehicle.id} <br/>
-        Year: ${vehicle.Year} <br/>
-        Make: ${vehicle.Make} <br/>
-        Model: ${vehicle.Model} <br/>
+        Year: ${vehicle.year} <br/>
+        Make: ${vehicle.make} <br/>
+        Model: ${vehicle.model} <br/>
         <g:link action="edit" id="${vehicle.id}">Edit</g:link><br/>
         <g:link action="delete" id="${vehicle.id}">Delete</g:link><br/><br/>
         <g:link action="list" id="${vehicle.id}">List All Vehicles</g:link>

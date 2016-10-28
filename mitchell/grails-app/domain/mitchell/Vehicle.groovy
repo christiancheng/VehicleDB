@@ -8,37 +8,37 @@ package mitchell
 
 class Vehicle {
 
-  public int Year;
-  public String Make;
-  public String Model;
+  public int year;
+  public String make;
+  public String model;
 
   static constraints = {
-    Year (blank: false, minSize: 1950, maxSize: 2050)
-    Make (blank: false)
-    Model(blank: false)
+    year (blank: false, minSize: 1950, maxSize: 2050)
+    make (blank: false)
+    model(blank: false)
   }
 
-  public int getYear() {
-    return this.Year;
+  public int getyear() {
+    return this.year;
   }
 
-  public void setYear(int YearToSet) {
-    this.Year = YearToSet;
+  public void setyear(int yearToSet) {
+    this.year = yearToSet;
   }
 
-  public String getMake() {
-    return this.Make;
+  public String getmake() {
+    return this.make;
   }
 
-  public void setMake(String MakeToSet) {
-    this.Make = MakeToSet;
+  public void setmake(String makeToSet) {
+    this.make = makeToSet;
   }
 
-  public String getModel() {
-    return this.Model;
+  public String getmodel() {
+    return this.model;
   }
 
-  public void setModel(String ModelToSet) {
-    this.Model = ModelToSet;
+  public void setmodel(String modelToSet) {
+    this.model = modelToSet;
   }
 }

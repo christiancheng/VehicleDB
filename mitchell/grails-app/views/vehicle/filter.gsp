@@ -1,23 +1,15 @@
 <! Author: Christian Cheng
    Project: mitchell
-   File: list.gsp !>
+   File: filter.gsp !>
 
 <html>
     <head>
         <meta name="layout" content="main"/>
-        <title>List All Vehicles</title>
+        <title>List Vehicles by Filter</title>
     </head>
     <body>
-        <h1>List All Vehicles</h1>
-        <g:link action="create">Create New Vehicle</g:link><br/><br/>
-
-        <h2>Filter By: </h2>
-        <g:form action="filter">
-	          <g:select name="ftype" from="${['Year', 'Make', 'Model']}"/>
-	          <g:field name ="fparam"/>
-	          <g:actionSubmit value="Filter Vehicles" action="filter"/>
-	      </g:form><br/>
-
+        <h1>List Vehicles by Filter</h1>
+        <g:link action="list">List All Vehicles</g:link><br/><br/>
         <g:each in="${vehicles}" var="vehicle">
              <h2>Vehicle ${vehicle.id}</h2>
              ID: ${vehicle.id} <br/>

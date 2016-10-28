@@ -365,6 +365,7 @@ fieldset.embedded legend {
 
 /* same effects for browsers that support HTML5 client-side validation (these have to be specified separately or IE will ignore the entire rule) */
 
+/* Invalid input highlighting
 input:invalid, select:invalid, textarea:invalid {
     background: #fff3f3;
     border-color: #ffaaaa;
@@ -376,6 +377,7 @@ input:invalid:focus, select:invalid:focus, textarea:invalid:focus {
     -webkit-box-shadow: 0 0 0.5em #ffaaaa;
     box-shadow: 0 0 0.5em #ffaaaa;
 }
+*/
 
 /* TABLES */
 

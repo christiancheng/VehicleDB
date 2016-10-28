@@ -19,9 +19,11 @@
                    type="text" required=""/><br/>
             Model: <g:field name="Model"
                    value = "${vehicle.model}"
-                   type="text" required=""/>
-            <g:actionSubmit value="Update" />
+                   type="text" required=""/><br/><br/>
+            <g:actionSubmit value="Update" /> 
+            <g:actionSubmit value="Cancel" action="list"/>
         </g:form>
+           
     </body>
 </html>
 

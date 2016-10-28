@@ -51,6 +51,7 @@ class VehicleController {
 
   /* Filter vehicles based on one or more properties. */
   def filter = {
+    if (!(params.fparam)) redirect action: "list";
     def search = params.fparam;
     if (search.isNumber()) search = search.toInteger();
     def c = Vehicle.createCriteria();

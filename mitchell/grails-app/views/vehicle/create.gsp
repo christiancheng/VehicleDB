@@ -13,8 +13,11 @@
             Year: <g:field name="year" type="number" min="1950"
                      max="2050" required=""/><br/>
             Make: <g:field name="make" type="text" required=""/><br/>
-            Model: <g:field name="model" type="text" required=""/><br/>
-            <g:actionSubmit value="Save" />
+            Model: <g:field name="model" type="text" required=""/><br/><br/>
+            <g:actionSubmit value="Save"/>
+        </g:form><br/>
+        <g:form action="list">
+            <g:actionSubmit value="Cancel" action="list"/>
         </g:form>
     </body>
 </html>

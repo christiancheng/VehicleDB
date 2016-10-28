@@ -18,6 +18,8 @@
         Model: ${vehicle.model} <br/>
         <g:link action="edit" id="${vehicle.id}">Edit</g:link><br/>
         <g:link action="delete" id="${vehicle.id}">Delete</g:link><br/><br/>
-        <g:link action="list" id="${vehicle.id}">List All Vehicles</g:link>
+        <g:form action="list">
+            <g:actionSubmit value="List All Vehicles" action="list"/>
+        </g:form>
     </body>
 </html>

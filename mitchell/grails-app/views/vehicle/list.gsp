@@ -9,17 +9,21 @@
     </head>
     <body>
         <h1>List All Vehicles</h1>
-        <g:link action="create">Create New Vehicle</g:link><br/><br/>
+        <g:form action="create">
+            <g:actionSubmit value="Create New Vehicle" action="create"/>
+        </g:form><br/>
 
         <h2>Filter By: </h2>
         <g:form action="filter">
 	          <g:select name="ftype" from="${['Year', 'Make', 'Model']}"/>
-	          <g:field name ="fparam"/>
+	          <g:field name ="fparam" required=""/>
 	          <g:actionSubmit value="Filter Vehicles" action="filter"/>
 	      </g:form><br/>
 
         <g:each in="${vehicles}" var="vehicle">
+             <g:link action="show" id="${vehicle.id}">
              <h2>Vehicle ${vehicle.id}</h2>
+             </g:link>
              ID: ${vehicle.id} <br/>
              Year: ${vehicle.year} <br/>
              Make: ${vehicle.make} <br/>
@@ -28,6 +32,8 @@
              <g:link action="delete"
              id="${vehicle.id}">Delete</g:link><br/><br/>
         </g:each>
-        <g:link action="create">Create New Vehicle</g:link>
+        <g:form action="create">
+            <g:actionSubmit value="Create New Vehicle" action="create"/>
+        </g:form>
     </body>
 </html>

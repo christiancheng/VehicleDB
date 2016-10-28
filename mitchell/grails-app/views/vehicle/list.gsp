@@ -22,7 +22,7 @@
 
         <g:each in="${vehicles}" var="vehicle">
              <g:link action="show" id="${vehicle.id}">
-             <h2>Vehicle ${vehicle.id}</h2>
+                <h2>Vehicle ${vehicle.id}</h2>
              </g:link>
              ID: ${vehicle.id} <br/>
              Year: ${vehicle.year} <br/>

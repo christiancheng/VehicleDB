@@ -21,7 +21,9 @@
 	      </g:form><br/>
 
         <g:each in="${vehicles}" var="vehicle">
-             <h2>Vehicle ${vehicle.id}</h2>
+            <g:link action="show" id="${vehicle.id}">
+                <h2>Vehicle ${vehicle.id}</h2>
+             </g:link> 
              ID: ${vehicle.id} <br/>
              Year: ${vehicle.year} <br/>
              Make: ${vehicle.make} <br/>

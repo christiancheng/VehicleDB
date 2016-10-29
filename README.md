@@ -21,11 +21,11 @@ Run <code>$ grails -version </code> to verify installation.
 Alternatively, Grails can be downloaded as a binary distribution: see https://grails.org/download.html.
 
 ## Running the application
-Make sure Grails is installed.
+1. Make sure Grails is installed!
+2. Navigate to the home folder of the project: <code>.../mitchell/mitchell/</code>
+3. Type the command <code>grails prod run-app</code>
+4. The application can be accessed from any web browser at <code>http://localhost:8080/</code>
 
-Navigate to the home folder of the project. From the command prompt or terminal, type <code>grails prod run-app</code>. The application can then be accessed from any web browser at http://localhost:8080/.
 
-
-Developed by Christian Cheng.
-
-http://christiancheng.me
+<br/><br/>
+Developed by Christian Cheng | http://christiancheng.me

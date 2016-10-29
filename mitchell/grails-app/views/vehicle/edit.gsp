@@ -14,10 +14,10 @@
                    value = "${vehicle.year}"
                    type="number" min="1950"
                    max="2050" required=""/><br/>
-            Make: <g:field name="Make"
+            Make: <g:field name="make"
                    value = "${vehicle.make}"
                    type="text" required=""/><br/>
-            Model: <g:field name="Model"
+            Model: <g:field name="model"
                    value = "${vehicle.model}"
                    type="text" required=""/><br/><br/>
             <g:actionSubmit value="Update" /> 

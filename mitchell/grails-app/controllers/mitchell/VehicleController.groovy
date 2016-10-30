@@ -13,7 +13,7 @@ class VehicleController {
     redirect action: "list";
   }
   
-  /* Redirect user to the editing view. */
+  /* Create controller for the create view. */
   def create = {}
 
   /* Save a new vehicle to the database. */
@@ -59,8 +59,11 @@ class VehicleController {
       eq((params.ftype).toLowerCase(), search);
     }
     if (vehicles) [vehicles: vehicles];
-    else redirect action: "list";
+    else redirect action: "empty";
   }
+
+  /* Landing page for a filter not matching any records. */
+  def empty = {}
 
   /* Remove a vehicle from the database. */
   def delete = {

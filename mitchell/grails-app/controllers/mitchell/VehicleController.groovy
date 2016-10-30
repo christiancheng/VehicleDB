@@ -53,7 +53,13 @@ class VehicleController {
   def filter = {
     if (!(params.fparam)) redirect action: "list";
     def search = params.fparam;
-    if (search.isNumber()) search = search.toInteger();
+    if (params.ftype == "Year") {
+      if (search.isNumber()) search = search.toInteger();
+      else {
+        redirect action: "empty";
+        return;
+      }
+    }
     def c = Vehicle.createCriteria();
     def vehicles = c.list{
       eq((params.ftype).toLowerCase(), search);

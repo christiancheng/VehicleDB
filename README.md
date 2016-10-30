@@ -17,7 +17,9 @@ Grails should be installed in order to run this application. There are two ways 
 
   Run <code>$ grails -version </code> to verify installation.
 
-2. Alternatively (or on Windows), Grails can be downloaded as a .zip file: see https://grails.org/download.html for the download and https://grails.org/wiki/Installation for installation instructions.
+2. Alternatively (or on Windows), Grails can be downloaded as a .zip file: 
+  * See https://grails.org/download.html for the download
+  * See https://grails.org/wiki/Installation for installation instructions.
 
 ## Running the application
 1. Make sure Grails is installed!

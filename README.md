@@ -7,7 +7,7 @@ Grails is a MVC framework that runs on the Groovy language (which is based on Ja
 ## Prerequisites
 Grails should be installed in order to run this application. There are two ways to install Grails:
 
-1. The easy way to install Grails is to use the Software Development Kit Manager (SDKMAN!) on bash platforms. Run the following commands in succession:
+1. The easy way to install Grails on bash platforms is to use the Software Development Kit Manager (SDKMAN!). Run the following commands in succession:
 
   <code>$ curl -s get.sdkman.io | bash</code>
 
@@ -17,11 +17,11 @@ Grails should be installed in order to run this application. There are two ways 
 
   Run <code>$ grails -version </code> to verify installation.
 
-2. Alternatively, Grails can be downloaded as a binary distribution: see https://grails.org/download.html.
+2. Alternatively (or on Windows), Grails can be downloaded as a .zip file: see https://grails.org/download.html for the download and https://grails.org/wiki/Installation for installation instructions.
 
 ## Running the application
 1. Make sure Grails is installed!
-2. Navigate to the home folder of the project: <code>.../mitchell/mitchell/</code>
+2. Navigate to the home folder of the project: <code>.../mitchell-master/mitchell/</code>
 3. Type the command <code>grails prod run-app</code>
 4. The application can be accessed from any web browser at <code>http://localhost:8080/</code>
 

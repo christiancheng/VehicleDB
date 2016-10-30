@@ -2,7 +2,7 @@
 This is a solution to provide CRUD operations (Create, Read, Update, and Delete) for a Vehicle entity. It is implemented using the Grails framework.
 
 ## What is Grails?
-Grails is a MVC framework that runs on the Groovy language (which is based on Java).
+Grails is an MVC framework that runs on the Groovy language (which is based on Java).
 
 ## Prerequisites
 Grails should be installed in order to run this application. There are two ways to install Grails:

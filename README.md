@@ -1,4 +1,4 @@
-# mitchell
+# VehicleDB
 This is a solution to provide CRUD operations (Create, Read, Update, and Delete) for a Vehicle entity. It is implemented using the Grails framework.
 
 ## What is Grails?
@@ -23,7 +23,7 @@ Grails should be installed in order to run this application. There are two ways 
 
 ## Running the application
 1. Make sure Grails is installed!
-2. Navigate to the home folder of the project: <code>.../mitchell-master/mitchell/</code>
+2. Navigate to the home folder of the project: <code>.../VehicleDB-master/mitchell/</code>
 3. Type the command <code>grails prod run-app</code>
 4. The application can be accessed from any web browser at <code>http://localhost:8080/</code>
 
